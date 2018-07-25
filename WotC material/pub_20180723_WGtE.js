@@ -476,3 +476,973 @@ CreatureList["clawfoot raptor"] = {
 
 
 // The dargonmarks
+
+// House Agent Backgrounds
+
+BackgroundList["house agent-cannith"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*cannith).*$/i, 
+	name : "House Agent (Cannith)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Alchemist's supplies", "Int"], ["Tinker's tools", "Int"]], 
+};
+BackgroundList["house agent-deneith"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*deneith).*$/i, 
+	name : "House Agent (Deneith)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Gaming set", 1], ["Vehicles (land)"]], 
+};
+BackgroundList["house agent-ghallanda"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*ghallanda).*$/i, 
+	name : "House Agent (Ghallanda)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Brewer's supplies", "Wis"], ["Cook's utensils", "Wis"]], 
+};
+BackgroundList["house agent-jorasco"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*jorasco).*$/i, 
+	name : "House Agent (Jorasco)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Alchemist's supplies", "Int"], ["Herbalism kit", "Int"]], 
+};
+BackgroundList["house agent-kundarak"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*kundarak).*$/i, 
+	name : "House Agent (Kundarak)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Tinker's tools", "Int"], ["Thieves' tools", "Dex"]], 
+};
+BackgroundList["house agent-lyrandar"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*lyrandar).*$/i, 
+	name : "House Agent (Lyrandar)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Vehicles (air)"], ["Vehicles (sea)"], ["Navigator's tools", "Wis"]], 
+};
+BackgroundList["house agent-medani"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*medani).*$/i, 
+	name : "House Agent (Medani)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Disguise kit", "Cha"], ["Thieves' tools", "Dex"]], 
+};
+BackgroundList["house agent-orien"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*orien).*$/i, 
+	name : "House Agent (Orien)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Vehicles (land)"], ["Gaming set", 1]], 
+};
+BackgroundList["house agent-phiarlan"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*phiarlan).*$/i, 
+	name : "House Agent (Phiarlan)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Musical instrument", 1], ["Disguise kit", "Cha"]], 
+};
+BackgroundList["house agent-sivis"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*sivis).*$/i, 
+	name : "House Agent (Sivis)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Calligrapher's tools", "Int"], ["Forgery kit", "Cha"]], 
+};
+BackgroundList["house agent-tharashk"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*tharashk).*$/i, 
+	name : "House Agent (Tharashk)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Gaming set", 1], ["Thieves' tools", "Dex"]], 
+};
+BackgroundList["house agent-thuranni"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*thuranni).*$/i, 
+	name : "House Agent (Thuranni)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Musical instrument", 1], ["Poisoner's kit", "Wis"]], 
+};
+BackgroundList["house agent-vadalis"] = { 
+	regExpSearch : /^(?=.*house)(?=.*agent)(?=.*vadalis).*$/i, 
+	name : "House Agent (Vadalis)", 
+	source : ["WGtE", 0], 
+	skills : ["Investigation", "Persuasion"], 
+	gold : 20, 
+	equipleft : [ 
+		["House signet ring", "", ""],
+		["ID papers", "", ""],
+	], 
+	equipright : [ 
+		["Fine clothes", "", 3],
+		["Belt pouch (with coins)", "", 1],
+	],
+	feature : "House Connections", 
+	trait : [
+		"I never let emotion complicate work.",
+		"I'm always looking to improve efficiency.",
+		"I share trivia about my house’s business (medicine, ships, warforged).",
+		"I hold myself and anyone I work with to extremely high standards.",
+		"I never forget an insult made against myself or my house.",
+		"I'm very excited and enthusiastic about everything my house does.",
+		"I'm representing my house and take great pride in my personal appearance.",
+		"I'm critical of monarchies and opposed to any restrictions on the houses."
+	], 
+	ideal : [
+		["Common Good",
+			"Common Good: My house serves a vital function, and its prosperity will help everyone. (Good)"
+		],
+		["Tradition",
+			"Tradition: I uphold traditions of my house and bring honor to my family. (Lawful)"
+		],
+		["Innovation",
+			"Innovation: Abandon old traditions and find better ways to do things. (Chaotic)"
+		],
+		["Power",
+			"Power: I want to ensure the prosperity of my house and wield its power myself. (Evil)"
+		],
+		["Discovery",
+			"Discovery: I want to learn all I can, both for my house and for my own curiosity. (Any)"
+		],
+		["Comfort",
+			"Comfort: I want to ensure that me and mine enjoy the best things in life. (Any)"
+		],
+	], 
+	bond : [
+		"My house is my family, and I would do anything for my family.",
+		"I love someone from another house, but such relationships are forbidden.",
+		"Someone I love was killed by a rival faction within my house, and I will have revenge.",
+		"I don’t care about the house as a whole, but I would do anything for my old mentor.",
+		"I believe my house needs to evolve to survive, and I need to lead that change.",
+		"I am determined to impress the leaders of my house, and to become a leader myself."
+	], 
+	flaw : [
+		"I'm overly concerned with following established procedures and protocols.",
+		"I'm obsessed with conspiracy theories and worried about secret societies and hidden demons.",
+		"I believe that my house and bloodline makes me better than everyone else.",
+		"I'm concealing a secret that could get me driven from my house.",
+		"I have strong religious beliefs that aren’t shared by others in my house.",
+		"I'm working for a hidden faction in my house that gives me secret assignments."
+	],  
+	extra : [
+		"Select a Role",
+		"Acquisition",
+		"Investigation",
+		"Research & Development",
+		"Security",
+		"Intimidation",
+		"Exploration",
+		"Negotiation",
+		"Covert Operations"
+	], 
+	toolProfs : [["Vehicles (land)"], ["Herbalism kit", "Wis"]], 
+};
+
+BackgroundFeatureList["house connections"] = {  
+	description : "I can always get food and lodging for my friends at a house enclave. When the house assigns me a mission, it will usually provide me with necessary supplies and transportation. I have old friends, mentors, and rivals in my house and may encounter one of them when I interact with a house business. How much they will be willing to help me out will depend on my current standing in your house.", 
+	source : ["WGtE", 0], 
+};
